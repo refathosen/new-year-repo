@@ -49,20 +49,18 @@ body {
 
 /* main section styles */
 
-.first-section{
-  border-radius: 527.929px;
-  background: rgba(241, 91, 34, 0.2);
-  width: 527.929px;
-  height: 527.929px;
+/* failure section styles */
+
+main {
+  padding: 130px 230px;
 }
 
 .failures {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 139px 320px 0px 225px;
-  
-  
+  padding-top: 0;
+  padding-bottom: 130px;
 }
 
 .failures-contant {
@@ -92,4 +90,69 @@ body {
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 5px;
+  margin-left: 5px;
+}
+/* My Plans section styles */
+
+.my-plans {
+  text-align: center;
+  padding-bottom: 130px;
+}
+.my-plans-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.my-plans-container {
+  display: flex;
+  justify-content: space-around;
+}
+.plans-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.plans-description {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.my-plans-container img {
+  margin-bottom: 20px;
+}
+/* Mindset section styles */
+
+.mindset {
+  width: 1140px;
+  height: 300px;
+  flex-shrink: 0;
+  background-image: url("../images/watch.png"), url("../images/gradient2.png");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.mindset-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 59px 616px 0px 64px;
+}
+.call-now-btn {
+  margin: 0px 916px 70px 64px;
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
 }
