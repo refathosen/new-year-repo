@@ -46,3 +46,50 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+/* main section styles */
+
+.first-section{
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  width: 527.929px;
+  height: 527.929px;
+}
+
+.failures {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 139px 320px 0px 225px;
+  
+  
+}
+
+.failures-contant {
+  margin-left: 85px;
+}
+
+.failures-title {
+  width: 288px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 220px;
+}
+.failures-description {
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.failures-type {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
